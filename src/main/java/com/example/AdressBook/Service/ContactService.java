@@ -12,8 +12,8 @@ import java.util.stream.Collectors;
 @Service
 public class ContactService {
 
-    private final ContactRepository contactRepository;
-    private final ContactMapper contactMapper;
+     ContactRepository contactRepository;
+     ContactMapper contactMapper;
 
     public ContactService(ContactRepository contactRepository, ContactMapper contactMapper) {
         this.contactRepository = contactRepository;
